@@ -72,17 +72,17 @@ export default {
 
 <style lang="sass">
 .bg-btn
-  background-color: red !important
+  background-color: #27A5D5 !important
 .tarjeta-audio
-  border-color: red
+  border-color: #27A5D5
   .tarjeta-audio__input
     input[type=range]
-      background: rgba(red, 0.2)
-      background-image: linear-gradient(red, red)
+      background: rgba(#27A5D5, 0.2)
+      background-image: linear-gradient(#27A5D5, #27A5D5)
       &::-webkit-slider-runnable-track
-        background: rgba(red, 0.2)
+        background: rgba(#27A5D5, 0.2)
       &::-webkit-slider-thumb
-        background-color: red
+        background-color: #27A5D5
       &::-moz-range-thumb
-        background-color: red
+        background-color: #27A5D5
 </style>

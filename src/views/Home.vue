@@ -22,8 +22,9 @@
             .content-wrapper.px-lg-4.pt-lg-4.px-xxl-5.py-xxl-5.text-start
               p.home-main-title UNIDAD {{ `${globalData.numeroUnidad}` }}
               h1.home-title.mb-4 {{ globalData.tituloUnidad }}
-              p.descripcion.mb-4 El desarrollo sostenible ha emergido como un concepto esencial para afrontar los retos globales contemporáneos, como el cambio climático, la desigualdad social y la degradación ambiental. Este curso, "Fundamentos del Desarrollo Sostenible y Sustentable", busca proporcionar a los estudiantes una base sólida sobre estos conceptos, explorando su evolución y relevancia en el contexto actual.
-              p.descripcion.mb-4 A lo largo de la primera unidad, se abordará la definición de desarrollo sostenible y sustentable, su historia y los Objetivos de Desarrollo Sostenible (ODS). Además, se analizará la interrelación entre el crecimiento económico, la equidad social y la protección ambiental. <br> Prepárate para adquirir las herramientas necesarias para integrar prácticas sostenibles en cualquier ámbito profesional y contribuir activamente a un futuro más equitativo y resiliente.
+              p.descripcion.mb-4En un mundo cada vez más interconectado y desafiante, las políticas y estrategias para el desarrollo sostenible se presentan como una respuesta esencial para alcanzar el equilibrio entre crecimiento económico, bienestar social y protección ambiental. Esta unidad explora los marcos normativos, las innovaciones tecnológicas y las estrategias empresariales que promueven un desarrollo sostenible y equitativo. A través del análisis de casos y la evaluación de políticas, se busca proporcionar herramientas prácticas para aplicar soluciones sostenibles en distintos contextos profesionales.
+
+              p.descripcion.mb-4 ¡Prepárese para enfrentar los retos del desarrollo sostenible con una visión crítica y herramientas efectivas! 
 
               p.descripcion.mb-4.mb-lg-5.pb-lg-4.text-bold ¡Inicia tu camino hacia la sostenibilidad ahora!
 

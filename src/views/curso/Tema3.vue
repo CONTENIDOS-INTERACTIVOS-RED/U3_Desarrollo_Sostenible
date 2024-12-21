@@ -1,64 +1,56 @@
 <template lang="pug">
 .curso-main-container.pb-3
-  BannerInterno(:subTitulo="'3. Objetivos de Desarrollo Sostenible (ODS)'")
+  BannerInterno(:subTitulo="'3. Innovación tecnológica y su papel en el desarrollo sustentable'")
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
 
-    img(src='@/assets/curso/unidad/img-27.png', alt='Texto que describa la imagen')
+    p.mb-4 La innovación tecnológica es fundamental para alcanzar los objetivos de desarrollo sustentable, porque proporciona soluciones avanzadas que permiten enfrentar los desafíos ambientales y sociales, a nivel global. En un contexto donde el cambio climático, la escasez de recursos naturales y la degradación de los ecosistemas, amenazan la estabilidad de los sistemas naturales y económicos, la tecnología emerge como una herramienta clave para mitigar estos problemas y promover un crecimiento más responsable. La innovación tecnológica aplicada a la sostenibilidad abarca  desde el desarrollo de energías limpias hasta la optimización de procesos industriales, pasando por la gestión de residuos y el aprovechamiento de la digitalización para una toma de decisiones más precisa y eficiente.
+    #t_3_1.titulo-segundo
+      div.d-flex
+        span.me-3 3.1  
+        h2 Tecnologías para la sostenibilidad ambiental
 
+    p.mb-4 Las tecnologías para la sostenibilidad ambiental, representan una serie de innovaciones diseñadas para minimizar el impacto negativo de las actividades humanas en el medio ambiente y maximizar el uso responsable de los recursos naturales.
     .row.mb-4
-      .col-10.mx-auto
-        .bg-rojo.p-4
-          span Los Objetivos de Desarrollo Sostenible (ODS), son un conjunto de 17 metas adoptadas en el 2015 por los Estados miembros de las Naciones Unidas, como parte de la Agenda 2030, con el fin de encaminar al mundo hacia un futuro más justo, equitativo y sostenible.
-    
+      .col-5.d-none.d-xl-block(data-aos="fade-right")
+        img(src='@/assets/curso/unidad/img-23.png', alt='Texto que describa la imagen')
+      .col-12.col-xl-7(data-aos="fade-left")
+        .bg-rojo.p-4.mb-4
+          span Estas tecnologías surgen como respuesta a los desafíos ambientales, como el cambio climático, la degradación de los ecosistemas y la creciente demanda de recursos, en una población global, en aumento. El objetivo de estas tecnologías es el de transformar sectores productivos, como la energía, la agricultura y la industria, para que operen de manera más limpia y eficiente, reduciendo la emisión de contaminantes y optimizando la utilización de insumos.
+        p.mb-4 Para conocer algunas de estas tecnologías, lo invitamos a escuchar el siguiente podcast.
+
+        TarjetaAudio.color-primario.bg-white.mb-0(
+          texto="Proceso de descarga de MySQL Server Community y MySQL Workbench"
+          tiempo
+          :audio="require('../../assets/componentes/audios/audio-ej.mp3')"
+          @audio-hover="mostrarIndicadorTarjetaAudio = false"
+        )
+
+    #t_3_2.titulo-segundo
+      div.d-flex
+        span.me-3 3.2  
+        h2 Digitalización y soluciones inteligentes para la sostenibilidad     
+
+    p.mb-4 La digitalización y las soluciones inteligentes están desempeñando un papel cada vez más relevante en la promoción de la sostenibilidad, dado que permiten una administración más precisa y eficiente de los recursos, una optimización de los procesos y una toma de decisiones basada en datos en tiempo real. El avance en tecnologías como la inteligencia artificial (IA), el Big Data, el Internet de las Cosas (IoT) y las plataformas digitales, ha transformado profundamente la gestión de procesos en sectores claves, como el energético, el agrícola, el urbano y el industrial, haciendo posible una mayor eficiencia y una reducción de desperdicios.
+    p.mb-4  Conozcamos algunas de las soluciones inteligentes utilizadas para la sostenibilidad:
+
     .row.mb-4
       .col-12.col-lg-7(data-aos="fade-right")
-        p.mb-4 Estos objetivos representan un esfuerzo global sin precedentes, para hacer frente a los grandes desafíos que enfrenta la humanidad, como la pobreza, la desigualdad, el cambio climático y la degradación ambiental. A diferencia de los Objetivos de Desarrollo del Milenio (ODM), que se centraban en los países en desarrollo y abordaban un conjunto limitado de indicadores, los ODS adoptan una perspectiva universal y holística, integrando plenamente los aspectos ambientales, sociales y económicos del desarrollo. (United Nations, 2015) 
-
-        span La Agenda 2030, compuesta por 169 metas específicas, invita a gobiernos, organizaciones, empresas y ciudadanos a trabajar de manera conjunta y coordinada para abordar los problemas de manera interconectada. Los ODS trascienden los objetivos de reducción de la pobreza y mejora de la salud y la educación; también promueven la transición hacia energías limpias, un trabajo digno y un crecimiento económico sostenible. El enfoque en la igualdad de género, la acción climática y la protección de los ecosistemas marítimos y terrestres refleja una conciencia profunda sobre la interconexión y complejidad de los retos globales. (United Nations, 2020)
-      .col-5.d-none.d-lg-block(data-aos="fade-left")
-        img.h-100(src='@/assets/curso/unidad/img-28.png', alt='Texto que describa la imagen')
-
-    .row.mb-4
-      .col-5.d-none.d-lg-block(data-aos="fade-right")
-        img.h-100(src='@/assets/curso/unidad/img-29.png', alt='Texto que describa la imagen')
+        AcordionA(tipo="b")
+          .div(titulo="Inteligencia artificial - Big Data")
+            p La inteligencia artificial y el Big Data, permiten recopilar, analizar y procesar, grandes volúmenes de datos para identificar patrones y tendencias que optimizan el uso de recursos y la sostenibilidad. En el ámbito de la agricultura, por ejemplo, la IA permite analizar datos climáticos, de suelo y de crecimiento de cultivos para ajustar las prácticas agrícolas en función de las condiciones actuales. Esta tecnología ayuda a los agricultores a reducir el uso de agua, fertilizantes y pesticidas, minimizando su impacto ambiental y maximizando la eficiencia de producción. Además, el Big Data también se utiliza en el sector energético para predecir y gestionar la demanda de electricidad, lo cual permite optimizar el uso de las redes eléctricas y evitar el desperdicio de energía.
+          .div(titulo="Internet de las Cosas (iot)")
+            p El Internet de las Cosas (IoT) ha revolucionado la sostenibilidad en ciudades e industrias mediante la interconexión de dispositivos y sistemas que monitorean el uso de recursos y las condiciones ambientales en tiempo real. En las ciudades inteligentes, por ejemplo, los sensores IoT permiten gestionar el tráfico, reducir el consumo de energía en edificios y optimizar la recolección de residuos, contribuyendo a un entorno urbano más eficiente y menos contaminante. En el ámbito industrial, el IoT permite monitorizar el funcionamiento de las máquinas y los procesos de producción, detectando problemas y ajustando parámetros para reducir el consumo energético y mejorar la eficiencia. Estas aplicaciones son fundamentales para reducir el impacto ambiental de las operaciones industriales y mejorar la sostenibilidad de las ciudades, al reducir las emisiones y el consumo de recursos.
+      .col-12.col-lg-5.d-none.d-lg-block(data-aos="fade-left")
+        img(src='@/assets/curso/unidad/img-24.png', alt='Texto que describa la imagen')
+    .row.mb-5
+      .col-12.col-lg-5.d-none.d-lg-block(data-aos="fade-right")
+        img(src='@/assets/curso/unidad/img-25.png', alt='Texto que describa la imagen')
       .col-12.col-lg-7(data-aos="fade-left")
-        p.mb-4 El desarrollo sostenible busca equilibrar el crecimiento económico, la justicia social y la protección del medio ambiente, reconociendo que estos pilares son inseparables para un futuro próspero. Las políticas económicas deben ser sensibles a sus impactos sociales y ambientales, promoviendo una inclusión efectiva y una participación activa de la comunidad. Los avances en tecnologías limpias y la adopción de la economía circular demuestran que es posible progresar sin comprometer al planeta. Un ejemplo inspirador es Costa Rica, un país que ha logrado combinar el crecimiento económico con una protección ambiental efectiva. (CEPAL, 2019)
-        span Alcanzar los ODS requiere una colaboración internacional sólida y el compromiso de todos los sectores para lograr cambios profundos y duraderos. Esta colaboración no solo busca mejorar la calidad de vida hoy, sino que también asegurar un entorno donde las futuras generaciones puedan prosperar en un mundo más justo, sostenible y lleno de oportunidades. 
-
-    .row.bg-amarillo.bg-full-width.py-4.mb-4
-      div.px-5.pb-md-3.py-4.d-flex
-        .col-12.col-xl-7.d-flex.pe-4.pe-xl-5.align-items-center.flex-column(data-aos="fade-right")
-          h2.mb-4.pb-2.me-auto Objetivos de Desarrollo Sostenible
-          p.mb-5 En el marco de la Agenda 2030, los Objetivos de Desarrollo Sostenible (ODS) representan una hoja de ruta integral para abordar los retos más urgentes de la humanidad y promover un futuro equilibrado, justo y sostenible. Estos 17 objetivos interrelacionados abordan temas fundamentales como la erradicación de la pobreza, la protección ambiental, la igualdad de género y el acceso universal a la educación y la salud, subrayando que el progreso en un área contribuye al avance en otras. En el PDF ODS, exploraremos cada uno de estos objetivos, destacando sus enfoques principales y su relevancia en el contexto global, ofreciendo una visión integral que invita a la acción conjunta para lograr un impacto significativo y duradero.
-          a.d-flex.me-auto.w-fit.bg-white.box-shadow.cursor-pointer(data-aos="zoom-in" :href="obtenerLink('/downloads/Anexos_ODS.pdf')" target="_blank")
-            img.h-100(style="width: 48px" src='@/assets/componentes/pdf-icon-square.svg', alt='Texto que describa la imagen')
-            p.text-small.fs-14px.my-auto.px-2 <strong>Anexo.</strong> ODS
-             
-        .d-none.d-xl-block.col-xl-5.mx-auto.mt-4.mt-xl-0(data-aos="fade-left")
-          img.h-100(src='@/assets/curso/unidad/img-30.png', alt='Texto que describa la imagen')
-    
-    .bg-full-width.border-top-9-azul
-      .px-4.px-md-5.pt-5.pb-0
-        h2 Material complementario
-        .row
-          .col-12.col-md-6.col-lg-8
-            p.text-small
-            p.d-flex.my-4
-              img.me-3.mb-auto.mt-1(src='@/assets/componentes/youtube-icon.svg' :style="{'max-width':'16px'}")
-              a.text-small.text-primary(target="_blank", href="https://www.youtube.com/watch?v=2n0TUKoIxOs") Ayuntamiento de Vitoria-Gasteiz / Gasteizko Udala. (2018, 11 octubre). Objetivos de Desarrollo Sostenible (ODS) [Vídeo]. YouTube.
-            p.d-flex.my-4
-              img.me-3.mb-auto.mt-1(src='@/assets/componentes/youtube-icon.svg' :style="{'max-width':'16px'}")
-              a.text-small.text-primary(target="_blank", href="https://www.youtube.com/watch?v=LYLzqBezwl8") Universidad Continental - Modalidad a Distancia. (2021, 15 agosto). Objetivos de Desarrollo Sostenible. sostenibilidad / Sustentabilidad [Vídeo]. YouTube. 
-            p.d-flex.my-4
-              img.me-3.mb-auto.mt-1(src='@/assets/componentes/book.svg' :style="{'max-width':'16px'}")
-              a.text-small.text-primary(target="_blank", href="https://elibro.net/es/lc/tecnologicadeloriente/titulos/250194") Sotillo Lorenzo, J. Á. (2017). El ecosistema de la cooperación: la agenda 2030 para el desarrollo sostenible: (1 ed.). Los libros de la Catarata.
-            p.d-flex.my-4
-              img.me-3.mb-auto.mt-1(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
-              a.text-small.text-primary(target="_blank", href="https://www.un.org/sustainabledevelopment/es/objetivos-de-desarrollo-sostenible/")  Gamez, M. J. (2022, 24 mayo). Objetivos y metas de desarrollo sostenible - Desarrollo Sostenible.
-          .col-12.col-md-6.col-lg-3
-            figure
-              img(src='@/assets/componentes/material-complementario.svg', alt='Texto que describa la imagen')
-
+        AcordionA(tipo="b")
+          .div(titulo="Inteligencia artificial - Big Data")
+            p Las plataformas digitales y la gestión de datos, también juegan un papel clave en la sostenibilidad, puesto que permiten un monitoreo exhaustivo y transparente de los procesos y la trazabilidad en la cadena de suministro. A través de estas plataformas, las empresas pueden controlar sus procesos de producción y distribución, garantizando que se cumplan con los estándares de sostenibilidad y que se gestionen de manera ética. Las plataformas de trazabilidad y gestión de datos también facilitan el cumplimiento de normativas ambientales y la adopción de prácticas sostenibles, porque proporcionan a los consumidores información clara sobre el origen y la sostenibilidad de los productos que compran. De esta forma, las plataformas digitales no solo permiten a las empresas mejorar su desempeño ambiental, sino que también refuerzan la transparencia y la confianza de los consumidores en los productos sostenibles.
+          .div(titulo="Ciudades inteligentes")
+            p En el ámbito urbano, la digitalización ha permitido el desarrollo de ciudades inteligentes que integran tecnología para una administración óptima de los recursos y los servicios públicos. Las ciudades inteligentes aprovechan el análisis de datos en tiempo real para ajustar el tráfico, la gestión de la energía y el tratamiento de residuos, de acuerdo con las necesidades de los ciudadanos, promoviendo así un uso más racional de los recursos y mejorando la calidad de vida. Además, las ciudades inteligentes implementan sistemas de gestión ambiental que permiten monitorear y reducir las emisiones de carbono, gestionar el agua de manera sostenible y mejorar la eficiencia energética de los edificios, lo cual resulta esencial en la construcción de un futuro más sustentable.
 
 
 </template>

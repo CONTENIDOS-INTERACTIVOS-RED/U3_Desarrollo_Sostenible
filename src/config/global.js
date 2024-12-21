@@ -16,8 +16,8 @@ export default {
         imagen: require('@/assets/curso/banner-principal-decorativo-2.svg'),
       },
     ],
-    numeroUnidad: '1',
-    tituloUnidad: 'Fundamentos del desarrollo sostenible',
+    numeroUnidad: '3',
+    tituloUnidad: 'Políticas y estrategias para el desarrollo sostenible',
   },
   menuPrincipal: {
     menu: [
@@ -31,20 +31,20 @@ export default {
         nombreRuta: 'tema1',
         icono: 'far fa-file-alt',
         numero: '1',
-        titulo: 'Conceptos fundamentales del desarrollo sostenible',
+        titulo:
+          'Políticas nacionales e internacionales de desarrollo sostenible',
         desarrolloContenidos: true,
         subMenu: [
           {
             icono: 'far fa-file-alt',
             numero: '1.1',
-            titulo:
-              'Definición y principios fundamentales de desarrollo sostenible',
+            titulo: 'Políticas nacionales de desarrollo sostenible',
             hash: 't_1_1',
           },
           {
             icono: 'far fa-file-alt',
             numero: '1.2',
-            titulo: 'Diferencias entre sostenibilidad y sustentabilidad     ',
+            titulo: 'Políticas internacionales de desarrollo sostenible',
             hash: 't_1_2',
           },
         ],
@@ -53,21 +53,26 @@ export default {
         nombreRuta: 'tema2',
         icono: 'far fa-file-alt',
         numero: '2',
-        titulo: 'Historia y evolución del desarrollo sostenible     ',
+        titulo: 'Estrategias empresariales para la sostenibilidad     ',
         desarrolloContenidos: true,
         subMenu: [
           {
             icono: 'far fa-file-alt',
             numero: '2.1',
-            titulo: 'Orígenes del concepto',
+            titulo: 'Modelos de producción y consumo sostenibles',
             hash: 't_2_1',
           },
           {
             icono: 'far fa-file-alt',
             numero: '2.2',
-            titulo:
-              'Evolución de la conciencia ambiental y el desarrollo sostenible en el ámbito global',
+            titulo: 'Uso de energías renovables y eficiencia energética',
             hash: 't_2_2',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '2.3',
+            titulo: 'Compromiso ético y responsabilidad social',
+            hash: 't_2_3',
           },
         ],
       },
@@ -75,17 +80,46 @@ export default {
         nombreRuta: 'tema3',
         icono: 'far fa-file-alt',
         numero: '3',
-        titulo: 'Objetivos de Desarrollo Sostenible (ODS)',
+        titulo:
+          'Innovación tecnológica y su papel en el desarrollo sustentable ',
         desarrolloContenidos: true,
-        subMenu: [],
+        subMenu: [
+          {
+            icono: 'far fa-file-alt',
+            numero: '3.1',
+            titulo: 'Tecnologías para la sostenibilidad ambiental',
+            hash: 't_3_1',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '3.2',
+            titulo:
+              'Digitalización y soluciones inteligentes para la sostenibilidad',
+            hash: 't_3_2',
+          },
+        ],
       },
       {
         nombreRuta: 'tema4',
         icono: 'far fa-file-alt',
         numero: '4',
         titulo:
-          'Relación entre desarrollo económico, equidad social y protección ambiental',
+          'Análisis de casos de éxito y fracaso en la implementación de políticas sostenibles',
         desarrolloContenidos: true,
+        subMenu: [
+          {
+            icono: 'far fa-file-alt',
+            numero: '4.1',
+            titulo: 'Casos de éxito en políticas sostenibles',
+            hash: 't_4_1',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '4.2',
+            titulo: 'Casos de fracaso en políticas sostenibles',
+            hash: 't_4_2',
+          },
+        ],
       },
       {
         nombreRuta: 'sintesis',
@@ -124,130 +158,159 @@ export default {
   },
   referencias: [
     {
-      referencia:
-        'Brundtland, G. H. (1987). Our common future. Oxford University Press.',
-      link: '',
+      termino: 'Análisis de contenido',
+      significado:
+        'Técnica utilizada para interpretar y codificar la información recopilada a través de entrevistas o documentos.',
     },
     {
-      referencia: 'Carson, R. (1962). Silent spring. Houghton Mifflin.',
-      link: '',
+      termino: 'Análisis estadístico',
+      significado:
+        'Proceso de aplicar técnicas para interpretar y presentar datos cuantitativos.',
     },
     {
-      referencia:
-        'CEPAL, NU. (2019). La Agenda 2030 y los Objetivos de Desarrollo Sostenible: una oportunidad para América Latina y el Caribe. Objetivos, metas e indicadores mundiales.',
-      link: '',
+      termino: 'Categorías emergentes',
+      significado:
+        'Temas o patrones que surgen de los datos cualitativos durante el análisis.',
     },
     {
-      referencia:
-        'Club de Roma. (1972). Los límites del crecimiento: Informe al Club de Roma sobre el predicamento de la humanidad. Editorial Fundamentos.',
-      link: '',
+      termino: 'Correlación',
+      significado: 'Medida que describe la relación entre dos o más variables.',
     },
     {
-      referencia:
-        'Naciones Unidas. (1992). Agenda 21: Programa de acción para el desarrollo sostenible. Conferencia de las Naciones Unidas sobre el Medio Ambiente y el Desarrollo.',
-      link: '',
+      termino: 'Encuesta',
+      significado:
+        'Método sistemático para recolectar datos numéricos a través de cuestionarios estructurados.',
     },
     {
-      referencia:
-        'Naciones Unidas. (2015). Transformar nuestro mundo: la Agenda 2030 para el Desarrollo Sostenible. Naciones Unidas.',
-      link: 'https://sustainabledevelopment.un.org',
+      termino: 'Entrevista',
+      significado:
+        'Técnica de recolección de datos que implica una conversación estructurada o semiestructurada entre el investigador y el participante.',
     },
     {
-      referencia:
-        'Organización Internacional del Trabajo. (2018). Informe global sobre trabajo decente.',
-      link: 'https://www.ilo.org',
+      termino: 'Escala de Likert',
+      significado:
+        'Método de medición que evalúa actitudes o percepciones en una escala de 1 a 5 o 1 a 7.',
     },
     {
-      referencia:
-        'Parra-Lancourt, M. (2020). Economía circular: Una oportunidad para el desarrollo sostenible en América Latina y el Caribe. CEPAL.',
-      link: '',
+      termino: 'Grupo focal',
+      significado:
+        'Método de recolección de datos donde se reúne un grupo reducido de personas para discutir sobre un tema específico, facilitado por un moderador.',
     },
     {
-      referencia:
-        'United Nations. (2020). The sustainable development goals report 2020. United Nations Department of Economic and Social Affairs.',
-      link: 'https://unstats.un.org',
+      termino: 'Integración de datos',
+      significado:
+        'Proceso de combinar hallazgos de diferentes métodos para obtener una comprensión global.',
     },
     {
-      referencia:
-        'World Bank. (2021). Inclusive growth and sustainable development: A cross-country analysis. The World Bank.',
-      link: 'https://www.worldbank.org',
+      termino: 'Investigación mixta',
+      significado:
+        'Enfoque que combina métodos cualitativos y cuantitativos en un solo estudio.',
+    },
+    {
+      termino: 'Observación participante',
+      significado:
+        'Estrategia en la que el investigador se involucra en el entorno o actividad que está estudiando para obtener información contextual.',
+    },
+    {
+      termino: 'Teoría fundamentada',
+      significado:
+        'Enfoque para generar teoría a partir de datos sistemáticamente recogidos y analizados.',
+    },
+    {
+      termino: 'Triangulación',
+      significado:
+        'Uso de múltiples métodos o fuentes de datos para aumentar la credibilidad y validez de los hallazgos.',
+    },
+    {
+      termino: 'Validación',
+      significado:
+        'Proceso de confirmar que los hallazgos de la investigación reflejan con precisión las perspectivas de los participantes.',
+    },
+    {
+      termino: 'Validez convergente',
+      significado:
+        'Grado en que diferentes métodos utilizados para medir un mismo concepto producen resultados consistentes.',
     },
   ],
   glosario: [
     {
-      termino: 'Biodiversidad',
+      termino: 'Análisis de contenido',
       significado:
-        'Variedad de vida en la Tierra, incluyendo ecosistemas, especies y genes, que es crucial para mantener el equilibrio ecológico y la sostenibilidad de los recursos naturales.',
+        'Técnica utilizada para interpretar y codificar la información recopilada a través de entrevistas o documentos.',
     },
     {
-      termino: 'Cambio Climático',
+      termino: 'Análisis estadístico',
       significado:
-        'Alteración significativa y duradera del clima de la Tierra, en gran parte causada por la actividad humana, como la quema de combustibles fósiles y la deforestación.',
+        'Proceso de aplicar técnicas para interpretar y presentar datos cuantitativos.',
     },
     {
-      termino: 'Consumo Responsable',
+      termino: 'Categorías emergentes',
       significado:
-        'Práctica de elegir productos y servicios que tengan el menor impacto ambiental posible, considerando aspectos como la reducción de residuos, el uso de recursos sostenibles y el respeto a los derechos laborales.',
+        'Temas o patrones que surgen de los datos cualitativos durante el análisis.',
     },
     {
-      termino: 'Desarrollo Económico',
-      significado:
-        'Proceso de mejora en la economía de un país o región que aumenta el nivel de vida de sus habitantes, generando empleo y riqueza de manera inclusiva y sostenible.',
+      termino: 'Correlación',
+      significado: 'Medida que describe la relación entre dos o más variables.',
     },
     {
-      termino: 'Desigualdad',
+      termino: 'Encuesta',
       significado:
-        'Diferencias significativas en el acceso a recursos, oportunidades y servicios entre diferentes grupos sociales, regiones o países, que afectan el desarrollo equitativo.',
+        'Método sistemático para recolectar datos numéricos a través de cuestionarios estructurados.',
     },
     {
-      termino: 'Economía Circular',
+      termino: 'Entrevista',
       significado:
-        'Sistema económico que busca reducir, reutilizar y reciclar materiales y productos, minimizando los desechos y la explotación de recursos naturales.',
+        'Técnica de recolección de datos que implica una conversación estructurada o semiestructurada entre el investigador y el participante.',
     },
     {
-      termino: 'Economía Verde',
+      termino: 'Escala de Likert',
       significado:
-        'Modelo económico que promueve la reducción de riesgos ambientales y escasez ecológica, mejorando el bienestar humano y la equidad social.',
+        'Método de medición que evalúa actitudes o percepciones en una escala de 1 a 5 o 1 a 7.',
     },
     {
-      termino: 'Eficiencia Energética',
+      termino: 'Grupo focal',
       significado:
-        'Uso racional y óptimo de la energía para minimizar el consumo sin sacrificar los resultados, reduciendo así el impacto ambiental y los costos.',
+        'Método de recolección de datos donde se reúne un grupo reducido de personas para discutir sobre un tema específico, facilitado por un moderador.',
     },
     {
-      termino: 'Energías Renovables',
+      termino: 'Integración de datos',
       significado:
-        'Fuentes de energía que se obtienen de recursos naturales que no se agotan, como el sol, el viento y el agua, y que son menos contaminantes.',
+        'Proceso de combinar hallazgos de diferentes métodos para obtener una comprensión global.',
     },
     {
-      termino: 'Equidad Social',
+      termino: 'Investigación mixta',
       significado:
-        'Principio que garantiza igualdad de oportunidades y acceso justo a recursos y servicios para todos los miembros de la sociedad, sin discriminación.',
+        'Enfoque que combina métodos cualitativos y cuantitativos en un solo estudio.',
     },
     {
-      termino: 'Protección Ambiental',
+      termino: 'Observación participante',
       significado:
-        'Conjunto de acciones y políticas que buscan conservar los recursos naturales y minimizar el impacto negativo de las actividades humanas en el medio ambiente.',
+        'Estrategia en la que el investigador se involucra en el entorno o actividad que está estudiando para obtener información contextual.',
     },
     {
-      termino: 'Recursos Renovables',
+      termino: 'Teoría fundamentada',
       significado:
-        'Recursos naturales que se regeneran de manera natural a un ritmo que permite su uso continuado, como la energía solar, eólica y el agua.',
+        'Enfoque para generar teoría a partir de datos sistemáticamente recogidos y analizados.',
     },
     {
-      termino: 'Responsabilidad Social Empresarial (RSE)',
+      termino: 'Triangulación',
       significado:
-        'Estrategia de gestión por la cual las empresas integran voluntariamente prácticas sostenibles y éticas en sus operaciones, considerando el impacto social y ambiental.',
+        'Uso de múltiples métodos o fuentes de datos para aumentar la credibilidad y validez de los hallazgos.',
     },
     {
-      termino: 'Sostenibilidad',
+      termino: 'Validación',
       significado:
-        'Capacidad de satisfacer las necesidades del presente sin comprometer la capacidad de las generaciones futuras para satisfacer sus propias necesidades, equilibrando lo económico, social y ambiental.',
+        'Proceso de confirmar que los hallazgos de la investigación reflejan con precisión las perspectivas de los participantes.',
     },
     {
-      termino: 'Sustentabilidad',
+      termino: 'Validez convergente',
       significado:
-        'Uso eficiente y responsable de los recursos naturales, asegurando que estos puedan regenerarse y mantenerse a lo largo del tiempo sin agotarse.',
+        'Grado en que diferentes métodos utilizados para medir un mismo concepto producen resultados consistentes.',
+    },
+    {
+      termino: 'Variable',
+      significado:
+        'Cualquier característica, valor o atributo que puede cambiar o variar en un estudio.',
     },
   ],
   complementario: [
