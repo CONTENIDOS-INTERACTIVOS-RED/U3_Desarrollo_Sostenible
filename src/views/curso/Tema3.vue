@@ -19,9 +19,9 @@
         p.mb-4 Para conocer algunas de estas tecnologías, lo invitamos a escuchar el siguiente podcast.
 
         TarjetaAudio.color-primario.bg-white.mb-0(
-          texto="Proceso de descarga de MySQL Server Community y MySQL Workbench"
+          texto="Tecnologías para la sostenibilidad ambiental"
           tiempo
-          :audio="require('../../assets/componentes/audios/audio-ej.mp3')"
+          :audio="require('../../assets/componentes/audios/Podcast_UnidadIII_Desarrollo sostenible_Tecnologías para la sostenibilidad ambiental.mp3')"
           @audio-hover="mostrarIndicadorTarjetaAudio = false"
         )
 
