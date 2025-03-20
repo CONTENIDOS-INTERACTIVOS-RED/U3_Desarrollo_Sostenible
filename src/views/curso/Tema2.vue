@@ -100,7 +100,98 @@
         .bg-verde.p-4
           span A nivel organizacional, también es fundamental que estas políticas sean integradas en la cultura corporativa y promovidas por la alta dirección para asegurar su implementación efectiva. Además, la falta de estándares universales en la evaluación de la responsabilidad social y la ética empresarial puede hacer difícil medir de manera precisa el impacto de estas prácticas.
 
+    .bg-full-width.border-top-9-azul
+      .px-5.pt-5.pb-0
+        h2 Material complementario
+        .row
+          .col-12.col-md-6.col-lg-8
+            p.d-flex.my-4
+              img.me-3.mb-auto.mt-1(src='@/assets/componentes/book.svg' :style="{'max-width':'16px'}")
+              a.text-small.text-primary(target="_blank", href="https://elibro.net/es/lc/tecnologicadeloriente/titulos/51998") Economía circular: un nuevo modelo de producción y consumo sostenible - Belda Hériz, I.
 
+            p.d-flex.my-4
+              img.me-3.mb-auto.mt-1(src='@/assets/componentes/book.svg' :style="{'max-width':'16px'}")
+              a.text-small.text-primary(target="_blank", href="https://elibro.net/es/lc/tecnologicadeloriente/titulos/34505") El consumo sostenible como perspectiva innovadora - Ortiz de Mendivil Llano, E.
+
+            p.d-flex.my-4
+              img.me-3.mb-auto.mt-1(src='@/assets/componentes/book.svg' :style="{'max-width':'16px'}")
+              a.text-small.text-primary(target="_blank", href="https://elibro.net/es/lc/tecnologicadeloriente/titulos/269738") Cambiar el mundo: los ODS como herramientas de transformación - Pes, À. & Castiñeira, À.
+
+            p.d-flex.my-4
+              img.me-3.mb-auto.mt-1(src='@/assets/componentes/book.svg' :style="{'max-width':'16px'}")
+              a.text-small.text-primary(target="_blank", href="https://elibro.net/es/lc/tecnologicadeloriente/titulos/54368") La actuación frente al cambio climático: guía para un consumo sostenible - Gutiérrez Pérez, C. & Gutiérrez Cánovas, C.
+
+            p.d-flex.my-4
+              img.me-3.mb-auto.mt-1(src='@/assets/componentes/book.svg' :style="{'max-width':'16px'}")
+              a.text-small.text-primary(target="_blank", href="https://elibro.net/es/lc/tecnologicadeloriente/titulos/34390") La empresa ciudadana como empresa responsable y sostenible - Lozano, J. M.
+
+            p.d-flex.my-4
+              img.me-3.mb-auto.mt-1(src='@/assets/componentes/book.svg' :style="{'max-width':'16px'}")
+              a.text-small.text-primary(target="_blank", href="https://elibro.net/es/lc/tecnologicadeloriente/titulos/233874") Memorias. I Congreso Internacional de Energías Renovables y Eficiencia Energética 2019 - López Hidalgo, A. et al.
+
+            p.d-flex.my-4
+              img.me-3.mb-auto.mt-1(src='@/assets/componentes/book.svg' :style="{'max-width':'16px'}")
+              a.text-small.text-primary(target="_blank", href="https://elibro.net/es/lc/tecnologicadeloriente/titulos/77456") Energías renovables y eficiencia energética: análisis de medidas orientadas al sector residencial - Chévez, P.
+
+            p.d-flex.my-4
+              img.me-3.mb-auto.mt-1(src='@/assets/componentes/book.svg' :style="{'max-width':'16px'}")
+              a.text-small.text-primary(target="_blank", href="https://elibro.net/es/lc/tecnologicadeloriente/titulos/130137") Responsabilidad Social de las Organizaciones (RSO): Estudios desde la mirada de la Responsabilidad Social hacia los Objetivos de Desarrollo Sostenible en América Latina - Gorrochategui, N.
+
+            p.d-flex.my-4
+              img.me-3.mb-auto.mt-1(src='@/assets/componentes/book.svg' :style="{'max-width':'16px'}")
+              a.text-small.text-primary(target="_blank", href="https://elibro.net/es/lc/tecnologicadeloriente/titulos/126087") Responsabilidad social de las Organizaciones (RSO): aportes teóricoprácticos para lograr los Objetivos de Desarrollo sostenible en América Latina - Gorrochategui, N. et al.
+
+            p.d-flex.my-4
+              img.me-3.mb-auto.mt-1(src='@/assets/componentes/youtube-icon.svg' :style="{'max-width':'16px'}")
+              a.text-small.text-primary(target="_blank", href="https://www.youtube.com/watch?v=WSeQTIVZTkc") [Vídeo] 8° Diálogos del agua 2022: Economía circular en la gestión del agua
+
+            p.d-flex.my-4
+              img.me-3.mb-auto.mt-1(src='@/assets/componentes/youtube-icon.svg' :style="{'max-width':'16px'}")
+              a.text-small.text-primary(target="_blank", href="https://www.youtube.com/watch?v=zepS_WZAY2w") [Vídeo] Plazas de mercado y centrales de abasto, escenarios para la economía circular
+
+            p.d-flex.my-4
+              img.me-3.mb-auto.mt-1(src='@/assets/componentes/youtube-icon.svg' :style="{'max-width':'16px'}")
+              a.text-small.text-primary(target="_blank", href="https://www.youtube.com/watch?v=rXxPklIfUxQ") [Vídeo] La importancia de ser parte de una cadena sostenible
+
+            p.d-flex.my-4
+              img.me-3.mb-auto.mt-1(src='@/assets/componentes/youtube-icon.svg' :style="{'max-width':'16px'}")
+              a.text-small.text-primary(target="_blank", href="https://www.youtube.com/watch?v=vK1LJmmKTjo") [Vídeo] Guía OCDE-FAO para las cadenas de suministro responsable en el sector agrícola
+
+            p.d-flex.my-4
+              img.me-3.mb-auto.mt-1(src='@/assets/componentes/youtube-icon.svg' :style="{'max-width':'16px'}")
+              a.text-small.text-primary(target="_blank", href="https://www.youtube.com/watch?v=56zYQQlodkE") [Vídeo] Consumo y producción sostenible
+
+            p.d-flex.my-4
+              img.me-3.mb-auto.mt-1(src='@/assets/componentes/youtube-icon.svg' :style="{'max-width':'16px'}")
+              a.text-small.text-primary(target="_blank", href="https://www.youtube.com/watch?v=w-0SlIIJYBU") [Vídeo] ¿Qué es el CONSUMO SOSTENIBLE y por qué es importante ponerlo en práctica?
+
+            p.d-flex.my-4
+              img.me-3.mb-auto.mt-1(src='@/assets/componentes/youtube-icon.svg' :style="{'max-width':'16px'}")
+              a.text-small.text-primary(target="_blank", href="https://www.youtube.com/watch?v=UvO1SswqIxk") [Vídeo] URJCx-MOOC ENERGÍA. Eficiencia energética. ¿Cómo incluye la eficiencia en en consumo de energía?
+
+            p.d-flex.my-4
+              img.me-3.mb-auto.mt-1(src='@/assets/componentes/youtube-icon.svg' :style="{'max-width':'16px'}")
+              a.text-small.text-primary(target="_blank", href="https://www.youtube.com/watch?v=e-LB0ZVOl94") [Vídeo] URJCx-MOOC ENERGÍA. La eficiencia energética en casa. Buenas prácticas para el ahorro energético
+
+            p.d-flex.my-4
+              img.me-3.mb-auto.mt-1(src='@/assets/componentes/youtube-icon.svg' :style="{'max-width':'16px'}")
+              a.text-small.text-primary(target="_blank", href="https://www.youtube.com/watch?v=iy9dhTS5htk") [Vídeo] Qué es la Economía del Bien Común
+
+            p.d-flex.my-4
+              img.me-3.mb-auto.mt-1(src='@/assets/componentes/youtube-icon.svg' :style="{'max-width':'16px'}")
+              a.text-small.text-primary(target="_blank", href="https://www.youtube.com/watch?v=h9eM5t6emUI") [Vídeo] La Economía del Bien Común en los Municipios
+
+            p.d-flex.my-4
+              img.me-3.mb-auto.mt-1(src='@/assets/componentes/youtube-icon.svg' :style="{'max-width':'16px'}")
+              a.text-small.text-primary(target="_blank", href="https://www.youtube.com/watch?v=7LvLdH6rvZg") [Vídeo] Responsabilidad Social Empresarial como estrategia de valor en los negocios - Caridad Maldonado
+
+            p.d-flex.my-4
+              img.me-3.mb-auto.mt-1(src='@/assets/componentes/youtube-icon.svg' :style="{'max-width':'16px'}")
+              a.text-small.text-primary(target="_blank", href="https://www.youtube.com/watch?v=hhd9Z0yvr5E") [Vídeo] Estrategia climática empresarial: cómo establecer metas y reducir emisiones
+
+          .col-12.col-md-6.col-lg-3
+            figure
+              img(src='@/assets/componentes/material-complementario.svg' alt='Imagen de material complementario')
 
 </template>
 

@@ -38,7 +38,7 @@
           .row.p-4.px-md-5.py-lg-5.justify-content-between
             .col-md-12.col-lg-7.mb-4.mb-md-0
               p.text-bold Políticas de desarrollo sostenible
-              p Las políticas de desarrollo sostenible, son principios que se apoyan en el concepto de responsabilidad compartida entre el sector público, el sector privado y la ciudadanía. Este enfoque fomenta una colaboración activa entre gobiernos, empresas, comunidades y ciudadanos para implementar prácticas sostenibles
+              p Las políticas de desarrollo sostenible, son principios que se apoyan en el concepto de responsabilidad compartida entre el sector público, el sector privado y la ciudadanía. Este enfoque fomenta una colaboración activa entre gobiernos, empresas, comunidades y ciudadanos para implementar prácticas sostenibles.
             .d-none.d-lg-block.col-md-6.col-lg-4
               figure
                 img(src='@/assets/curso/unidad/img-8.png', alt='Texto que describa la imagen')
@@ -55,7 +55,7 @@
     .row.mb-4
       .col-5.d-none.d-xl-block(data-aos="fade-right")
         img(src='@/assets/curso/unidad/img-10.png', alt='Texto que describa la imagen')
-      .col-12.col-xl-5(data-aos="fade-left")
+      .col-12.col-xl-7(data-aos="fade-left")
         .bg-verde.p-4.mb-4
           span Uno de los documentos estratégicos más comunes es el Plan Nacional de Desarrollo (PND), en el que cada país define sus metas de sostenibilidad y las acciones necesarias para alcanzarlas dentro de un período determinado, generalmente de cuatro a seis años.  
         span Estos planes permiten a los gobiernos introducir regulaciones ambientales, como límites a las emisiones de gases contaminantes, restricciones sobre la explotación de recursos naturales y políticas de gestión de residuos. Además, muchos países incluyen incentivos financieros y fiscales, como exenciones de impuestos o subsidios, para fomentar la inversión en tecnologías limpias y la adopción de prácticas sostenibles en el sector privado. (Ministerio de Ambiente y Desarrollo Sostenible de Colombia, 2021)
@@ -80,19 +80,19 @@
         figure
           img(src='@/assets/curso/unidad/img-12.png', alt='Texto que describa la imagen')
 
-      .tarjeta.bg-rojo.p-4(x="20%" y="20%" numero="+")
+      .tarjeta.bg-rojo.p-4(x="50%" y="23%" numero="+")
         .h5.mb-2 Acuerdo de París
 
         p  Uno de los acuerdos más destacados es el Acuerdo de París, adoptado en el 2015 durante la COP21. Este acuerdo establece una meta global para reducir las emisiones de gases de efecto invernadero, con el fin de mantener el aumento de la temperatura mundial por debajo de 2 °C y, de ser posible, limitarlo a 1.5 °C. En el marco de este acuerdo, cada país presenta sus Contribuciones Determinadas a Nivel Nacional (NDCs), donde establece sus metas de reducción de emisiones y las políticas específicas para alcanzarlas. Además de su enfoque en la reducción de emisiones, el Acuerdo de París fomenta la colaboración en términos de financiamiento y transferencia de tecnología, permitiendo que los países en desarrollo, adopten prácticas de bajo carbono y se adapten a los efectos del cambio climático. El Fondo Verde para el Clima es un ejemplo de cómo los países desarrollados apoyan financieramente a los países en desarrollo para ayudarles a cumplir con sus objetivos climáticos. (Unión Europea, 2020)
-      .tarjeta.bg-rojo.p-4(x="20%" y="20%" numero="+")
+      .tarjeta.bg-rojo.p-4(x="67%" y="50%" numero="+")
         .h5.mb-2 Agenda 2030
  
         p Otro pilar de las políticas internacionales es la Agenda 2030 y sus 17 Objetivos de Desarrollo Sostenible (ODS), adoptada en el 2015 por la Asamblea General de las Naciones Unidas. Esta agenda, que abarca temas diversos como la erradicación de la pobreza, la protección de la biodiversidad y la lucha contra el cambio climático, promueve una visión integral de la sostenibilidad, donde los aspectos sociales, económicos y ambientales, se encuentran interrelacionados. Los países miembros de la ONU se han comprometido a cumplir con los ODS para el año 2030, lo cual requiere una colaboración activa entre gobiernos, el sector privado y la sociedad civil. (Unión Europea, 2020)
-      .tarjeta.bg-rojo.p-4(x="20%" y="20%" numero="+")
+      .tarjeta.bg-rojo.p-4(x="50%" y="75%" numero="+")
         .h5.mb-2 Convenio sobre la Diversidad Biológica
 
         p El Convenio sobre la Diversidad Biológica (CDB), firmado en 1992, es otro acuerdo fundamental para la protección del medio ambiente a nivel global. Este convenio tiene como objetivo conservar la biodiversidad, promover su uso sostenible y asegurar una distribución justa y equitativa de los beneficios derivados de los recursos genéticos. Las metas de este convenio incluyen la creación de áreas protegidas, la restauración de ecosistemas y la reducción de la pérdida de hábitats naturales, promoviendo una gestión sostenible de los recursos.
-      .tarjeta.bg-rojo.p-4(x="20%" y="20%" numero="+")
+      .tarjeta.bg-rojo.p-4(x="33.5%" y="50%" numero="+")
         .h5.mb-2 Protocolo de Montreal 
         p Otro acuerdo internacional significativo es el Protocolo de Montreal, firmado en 1987, cuyo propósito es el de eliminar gradualmente las sustancias que agotan la capa de ozono, como los clorofluorocarbonos (CFC). Este protocolo ha sido uno de los acuerdos más exitosos, debido a que ha permitido una colaboración global y un compromiso de la industria, la cual ha contribuido a la recuperación de la capa de ozono.
 
@@ -100,7 +100,50 @@
       span Para asegurar la implementación de estos acuerdos, se han establecido mecanismos como las NDCs, los fondos internacionales de desarrollo sostenible, la transferencia de tecnología y los sistemas de monitoreo global. Estos mecanismos no solo permiten que los países formulen compromisos, sino que también proporcionan recursos y apoyo técnico para que estos compromisos se materialicen. Por ejemplo, el Fondo Verde para el Clima y el Fondo para el Medio Ambiente Mundial proporcionan financiamiento para proyectos de sostenibilidad en países en desarrollo, mientras que los sistemas de monitoreo globales, establecidos por la ONU y otras organizaciones, permiten medir el avance en el cumplimiento de los ODS y otros objetivos internacionales. (Unión Europea, 2020) 
     
 
+    .bg-full-width.border-top-9-azul
+      .px-5.pt-5.pb-0
+        h2 Material complementario
+        .row
+          .col-12.col-md-6.col-lg-8
+            p.d-flex.my-4
+              img.me-3.mb-auto.mt-1(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
+              a.text-small.text-primary(target="_blank", href="https://oab.ambientebogota.gov.co/?post_type=dlm_download&p=3377") Política Nacional de Producción más limpia - Ministerio del Medio Ambiente
 
+            p.d-flex.my-4
+              img.me-3.mb-auto.mt-1(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
+              a.text-small.text-primary(target="_blank", href="https://www.policia.gov.co/sites/default/files/cartilla_politica_sectorial_ambiental.pdf") POLÍTICA AMBIENTAL DEL SECTOR DEFENSA
+
+            p.d-flex.my-4
+              img.me-3.mb-auto.mt-1(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
+              a.text-small.text-primary(target="_blank", href="https://justiciaambientalcolombia.org/wp-content/uploads/2012/09/polc3adtica-nacional-de-biodiversidad.pdf") POLITICA NACIONAL DE BIODIVERSIDAD
+
+            p.d-flex.my-4
+              img.me-3.mb-auto.mt-1(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
+              a.text-small.text-primary(target="_blank", href="https://justiciaambientalcolombia.org/wp-content/uploads/2012/09/politica-nacional-de-investigacic3b3n-ambiental3.pdf") POLÍTICA NACIONAL DE INVESTIGACIÓN AMBIENTAL
+
+            p.d-flex.my-4
+              img.me-3.mb-auto.mt-1(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
+              a.text-small.text-primary(target="_blank", href="https://justiciaambientalcolombia.org/wp-content/uploads/2012/09/politica-desarrollo-del-ecoturismo2.pdf") POLÍTICA PARA EL DESARROLLO DEL ECOTURISMO
+
+            p.d-flex.my-4
+              img.me-3.mb-auto.mt-1(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
+              a.text-small.text-primary(target="_blank", href="https://www.europarl.europa.eu/factsheets/es/sheet/163/la-politica-de-desarrollo-resumen-general") La política de desarrollo: resumen general | Fichas temáticas sobre la Unión Europea
+
+            p.d-flex.my-4
+              img.me-3.mb-auto.mt-1(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
+              a.text-small.text-primary(target="_blank", href="https://portal.amelica.org/ameli/journal/446/4461920005/html/") Desarrollo sostenible y políticas públicas: enfoque de la ONU y ecología política
+
+            p.d-flex.my-4
+              img.me-3.mb-auto.mt-1(src='@/assets/componentes/youtube-icon.svg' :style="{'max-width':'16px'}")
+              a.text-small.text-primary(target="_blank", href="https://www.youtube.com/watch?v=LbwnSaqMThE") [Vídeo] Coherencia de las políticas para el desarrollo - Diputación de Barcelona
+
+            p.d-flex.my-4
+              img.me-3.mb-auto.mt-1(src='@/assets/componentes/youtube-icon.svg' :style="{'max-width':'16px'}")
+              a.text-small.text-primary(target="_blank", href="https://www.youtube.com/watch?v=jW_DNkFCE88") [Vídeo] Gobernanza para el desarrollo sostenible - Isabel Fiafilio Rodríguez
+
+          .col-12.col-md-6.col-lg-3
+            figure
+              img(src='@/assets/componentes/material-complementario.svg' alt='Imagen de material complementario')
 
 
 </template>

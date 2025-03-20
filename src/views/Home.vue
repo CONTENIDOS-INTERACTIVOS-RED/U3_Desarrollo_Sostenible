@@ -22,7 +22,7 @@
             .content-wrapper.px-lg-4.pt-lg-4.px-xxl-5.py-xxl-5.text-start
               p.home-main-title UNIDAD {{ `${globalData.numeroUnidad}` }}
               h1.home-title.mb-4 {{ globalData.tituloUnidad }}
-              p.descripcion.mb-4En un mundo cada vez más interconectado y desafiante, las políticas y estrategias para el desarrollo sostenible se presentan como una respuesta esencial para alcanzar el equilibrio entre crecimiento económico, bienestar social y protección ambiental. Esta unidad explora los marcos normativos, las innovaciones tecnológicas y las estrategias empresariales que promueven un desarrollo sostenible y equitativo. A través del análisis de casos y la evaluación de políticas, se busca proporcionar herramientas prácticas para aplicar soluciones sostenibles en distintos contextos profesionales.
+              p.descripcion.mb-4 En un mundo cada vez más interconectado y desafiante, las políticas y estrategias para el desarrollo sostenible se presentan como una respuesta esencial para alcanzar el equilibrio entre crecimiento económico, bienestar social y protección ambiental. Esta unidad explora los marcos normativos, las innovaciones tecnológicas y las estrategias empresariales que promueven un desarrollo sostenible y equitativo. A través del análisis de casos y la evaluación de políticas, se busca proporcionar herramientas prácticas para aplicar soluciones sostenibles en distintos contextos profesionales.
 
               p.descripcion.mb-4 ¡Prepárese para enfrentar los retos del desarrollo sostenible con una visión crítica y herramientas efectivas! 
 

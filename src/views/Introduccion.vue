@@ -10,7 +10,7 @@
           p.pe-xl-5.mb-0 La tercera unidad de este curso, titulada “Políticas y estrategias para el desarrollo sostenible,” aborda la aplicación práctica de los conceptos de sostenibilidad a través de políticas y estrategias que promuevan un equilibrio duradero entre el crecimiento económico, el bienestar social y la protección ambiental. En un mundo donde los desafíos globales son cada vez más complejos, es esencial comprender cómo las políticas nacionales e internacionales, junto con las estrategias empresariales y las innovaciones tecnológicas, pueden contribuir a un desarrollo sostenible y equitativo. Esta unidad es fundamental, dado que ofrece a los estudiantes las herramientas para evaluar políticas y estrategias de sostenibilidad en diversos contextos, y para analizar casos de éxito y fracaso que brindan lecciones valiosas sobre la implementación efectiva de prácticas sostenibles.
 
     .row.mb-4
-      .col-12.col-xl-5(data-aos="fade-right")
+      .col-12.col-xl-7(data-aos="fade-right")
         span Al finalizar esta unidad, el estudiante será capaz de evaluar políticas y estrategias de desarrollo sostenible, tanto a nivel local como global, aplicando principios fundamentales para analizar ejemplos reales. Este conocimiento le permitirá desarrollar una visión crítica sobre la sostenibilidad, que podrá aplicar en distintos ámbitos profesionales, desde la creación de políticas públicas, hasta la gestión de proyectos sostenibles en el sector privado. La relevancia de este contenido radica en su impacto directo sobre la práctica profesional, ofreciendo una perspectiva integral de cómo las decisiones estratégicas pueden influir en el desarrollo sostenible y en la creación de valor a largo plazo.
       .col-5.d-none.d-xl-block(data-aos="fade-left")
         img(src='@/assets/curso/unidad/img-2.png', alt='Texto que describa la imagen')
@@ -18,21 +18,21 @@
     .row.mb-4
       .col-5.d-none.d-xl-block(data-aos="fade-right")
         img(src='@/assets/curso/unidad/img-3.png', alt='Texto que describa la imagen')
-      .col-12.col-xl-5(data-aos="fade-left")
+      .col-12.col-xl-7(data-aos="fade-left")
         p.mb-4 Esta unidad está organizada en cuatro temas principales: 
         ol.lista-ol--cuadro
           li.d-flex(data-aos="fade-up")
             .lista-ol--cuadro__vineta
               span 1
-            p.mb-0 Se abordarán las políticas de desarrollo sostenible, tanto en el ámbito nacional como internacional, para entender los marcos regulatorios y sus implicaciones
+            p.mb-0 Se abordarán las políticas de desarrollo sostenible, tanto en el ámbito nacional como internacional, para entender los marcos regulatorios y sus implicaciones.
           li.d-flex(data-aos="fade-up")
             .lista-ol--cuadro__vineta
               span 2
-            p.mb-0 Se explorarán las estrategias empresariales que permiten a las organizaciones operar de manera sostenible y competitiva
+            p.mb-0 Se explorarán las estrategias empresariales que permiten a las organizaciones operar de manera sostenible y competitiva.
           li.d-flex(data-aos="fade-up")
             .lista-ol--cuadro__vineta
               span 3
-            p.mb-0 Se examinará el papel de la innovación tecnológica, destacando cómo esta puede impulsar el desarrollo sustentable
+            p.mb-0 Se examinará el papel de la innovación tecnológica, destacando cómo esta puede impulsar el desarrollo sustentable.
           li.d-flex(data-aos="fade-up")
             .lista-ol--cuadro__vineta
               span 4

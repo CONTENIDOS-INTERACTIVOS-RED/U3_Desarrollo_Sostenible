@@ -158,159 +158,129 @@ export default {
   },
   referencias: [
     {
-      termino: 'Análisis de contenido',
-      significado:
-        'Técnica utilizada para interpretar y codificar la información recopilada a través de entrevistas o documentos.',
+      referencia:
+        'Agencia Internacional de Energía (AIE). (2020). World Energy Outlook 2020. AIE.',
+      link: 'https://www.iea.org/reports/world-energy-outlook-2020',
     },
     {
-      termino: 'Análisis estadístico',
-      significado:
-        'Proceso de aplicar técnicas para interpretar y presentar datos cuantitativos.',
+      referencia:
+        'Comisión Europea. (2020). Un Pacto Verde Europeo. Comisión Europea.',
+      link: 'https://ec.europa.eu/commission/presscorner/detail/es/ip_19_6691',
     },
     {
-      termino: 'Categorías emergentes',
-      significado:
-        'Temas o patrones que surgen de los datos cualitativos durante el análisis.',
+      referencia:
+        "Danish Energy Agency. (2019). Energy statistics 2019: Key figures for Denmark's green transition. Danish Energy Agency.",
+      link:
+        'https://ens.dk/en/our-services/statistics-data-key-figures-and-energy-maps/annual-energy-statistics',
     },
     {
-      termino: 'Correlación',
-      significado: 'Medida que describe la relación entre dos o más variables.',
+      referencia:
+        'Ghisellini, P., Cialani, C., & Ulgiati, S. (2016). A review on circular economy: The expected transition to a balanced interplay of environmental and economic systems. Journal of Cleaner Production, 114, 11-32.',
+      link: 'https://doi.org/10.1016/j.jclepro.2015.09.007',
     },
     {
-      termino: 'Encuesta',
-      significado:
-        'Método sistemático para recolectar datos numéricos a través de cuestionarios estructurados.',
+      referencia:
+        'Naciones Unidas. (2019). Informe de Objetivos de Desarrollo Sostenible 2019. Naciones Unidas.',
+      link: 'https://unstats.un.org/sdgs/report/2019/',
     },
     {
-      termino: 'Entrevista',
-      significado:
-        'Técnica de recolección de datos que implica una conversación estructurada o semiestructurada entre el investigador y el participante.',
+      referencia:
+        'ONU Medio Ambiente. (2019). Informe sobre el estado del medio ambiente global. Programa de las Naciones Unidas para el Medio Ambiente.',
+      link: 'https://www.unep.org/resources/global-environment-outlook-6',
     },
     {
-      termino: 'Escala de Likert',
-      significado:
-        'Método de medición que evalúa actitudes o percepciones en una escala de 1 a 5 o 1 a 7.',
+      referencia:
+        'Patagonia. (2022). Reportes de sostenibilidad y prácticas empresariales responsables. Patagonia Inc.',
+      link: 'https://www.patagonia.com/sustainability',
     },
     {
-      termino: 'Grupo focal',
-      significado:
-        'Método de recolección de datos donde se reúne un grupo reducido de personas para discutir sobre un tema específico, facilitado por un moderador.',
+      referencia:
+        'United Nations Framework Convention on Climate Change (UNFCCC). (2015). Acuerdo de París. UNFCCC.',
+      link:
+        'https://unfccc.int/es/process-and-meetings/the-paris-agreement/the-paris-agreement',
     },
     {
-      termino: 'Integración de datos',
-      significado:
-        'Proceso de combinar hallazgos de diferentes métodos para obtener una comprensión global.',
+      referencia:
+        'World Business Council for Sustainable Development (WBCSD). (2010). Vision 2050: The new agenda for business. WBCSD.',
+      link:
+        'https://www.wbcsd.org/Programs/People/Society/Resources/Vision-2050',
     },
     {
-      termino: 'Investigación mixta',
-      significado:
-        'Enfoque que combina métodos cualitativos y cuantitativos en un solo estudio.',
-    },
-    {
-      termino: 'Observación participante',
-      significado:
-        'Estrategia en la que el investigador se involucra en el entorno o actividad que está estudiando para obtener información contextual.',
-    },
-    {
-      termino: 'Teoría fundamentada',
-      significado:
-        'Enfoque para generar teoría a partir de datos sistemáticamente recogidos y analizados.',
-    },
-    {
-      termino: 'Triangulación',
-      significado:
-        'Uso de múltiples métodos o fuentes de datos para aumentar la credibilidad y validez de los hallazgos.',
-    },
-    {
-      termino: 'Validación',
-      significado:
-        'Proceso de confirmar que los hallazgos de la investigación reflejan con precisión las perspectivas de los participantes.',
-    },
-    {
-      termino: 'Validez convergente',
-      significado:
-        'Grado en que diferentes métodos utilizados para medir un mismo concepto producen resultados consistentes.',
+      referencia:
+        'World Economic Forum. (2021). The Global Risks Report 2021. WEF.',
+      link: 'https://www.weforum.org/reports/the-global-risks-report-2021',
     },
   ],
   glosario: [
     {
-      termino: 'Análisis de contenido',
+      termino: 'Acción Climática',
       significado:
-        'Técnica utilizada para interpretar y codificar la información recopilada a través de entrevistas o documentos.',
+        'Medidas implementadas para mitigar o adaptarse a los efectos del cambio climático, buscando reducir las emisiones de gases de efecto invernadero.',
     },
     {
-      termino: 'Análisis estadístico',
+      termino: 'Ahorro Energético',
       significado:
-        'Proceso de aplicar técnicas para interpretar y presentar datos cuantitativos.',
+        'Reducción del consumo de energía mediante el uso eficiente de recursos y tecnologías que optimizan la utilización de energía.',
     },
     {
-      termino: 'Categorías emergentes',
+      termino: 'Capital Natural',
       significado:
-        'Temas o patrones que surgen de los datos cualitativos durante el análisis.',
+        'Recursos y servicios proporcionados por los ecosistemas, que incluyen agua, suelo, biodiversidad y aire, fundamentales para la vida humana.',
     },
     {
-      termino: 'Correlación',
-      significado: 'Medida que describe la relación entre dos o más variables.',
+      termino: 'Comercio Justo',
+      significado:
+        'Movimiento y práctica que promueve condiciones laborales y comerciales equitativas, asegurando precios justos para los productores en países en desarrollo.',
     },
     {
-      termino: 'Encuesta',
+      termino: 'Conservación',
       significado:
-        'Método sistemático para recolectar datos numéricos a través de cuestionarios estructurados.',
+        'Protección y gestión de los recursos naturales para prevenir su agotamiento y asegurar su disponibilidad a largo plazo.',
     },
     {
-      termino: 'Entrevista',
+      termino: 'Contaminación',
       significado:
-        'Técnica de recolección de datos que implica una conversación estructurada o semiestructurada entre el investigador y el participante.',
+        'Introducción de sustancias dañinas en el medio ambiente que afectan la calidad del aire, agua o suelo, perjudicando la salud y los ecosistemas.',
     },
     {
-      termino: 'Escala de Likert',
+      termino: 'Empoderamiento Comunitario',
       significado:
-        'Método de medición que evalúa actitudes o percepciones en una escala de 1 a 5 o 1 a 7.',
+        'Proceso mediante el cual las comunidades adquieren habilidades y recursos para mejorar su bienestar y tomar decisiones informadas.',
     },
     {
-      termino: 'Grupo focal',
+      termino: 'Equilibrio Ecológico',
       significado:
-        'Método de recolección de datos donde se reúne un grupo reducido de personas para discutir sobre un tema específico, facilitado por un moderador.',
+        'Estado de armonía entre los organismos vivos y su entorno, que permite la estabilidad y continuidad de los ecosistemas.',
     },
     {
-      termino: 'Integración de datos',
+      termino: 'Innovación Sostenible',
       significado:
-        'Proceso de combinar hallazgos de diferentes métodos para obtener una comprensión global.',
+        'Desarrollo de tecnologías y procesos que promueven la eficiencia y el uso responsable de los recursos naturales.',
     },
     {
-      termino: 'Investigación mixta',
+      termino: 'Manejo de Residuos',
       significado:
-        'Enfoque que combina métodos cualitativos y cuantitativos en un solo estudio.',
+        'Conjunto de actividades destinadas a la recolección, tratamiento y disposición de desechos para reducir su impacto ambiental.',
     },
     {
-      termino: 'Observación participante',
+      termino: 'Neutralidad de Carbono',
       significado:
-        'Estrategia en la que el investigador se involucra en el entorno o actividad que está estudiando para obtener información contextual.',
+        'Estado en el cual las emisiones de dióxido de carbono de una entidad son equilibradas mediante la reducción y compensación.',
     },
     {
-      termino: 'Teoría fundamentada',
+      termino: 'Reducción de Residuos',
       significado:
-        'Enfoque para generar teoría a partir de datos sistemáticamente recogidos y analizados.',
+        'Estrategias para minimizar la generación de desechos en procesos de producción y consumo, promoviendo prácticas más sostenibles.',
     },
     {
-      termino: 'Triangulación',
+      termino: 'Sistemas Ecosistémicos',
       significado:
-        'Uso de múltiples métodos o fuentes de datos para aumentar la credibilidad y validez de los hallazgos.',
+        'Conjunto de comunidades biológicas que interactúan con su entorno físico, creando un equilibrio funcional y autorregulado.',
     },
     {
-      termino: 'Validación',
+      termino: 'Transición Energética',
       significado:
-        'Proceso de confirmar que los hallazgos de la investigación reflejan con precisión las perspectivas de los participantes.',
-    },
-    {
-      termino: 'Validez convergente',
-      significado:
-        'Grado en que diferentes métodos utilizados para medir un mismo concepto producen resultados consistentes.',
-    },
-    {
-      termino: 'Variable',
-      significado:
-        'Cualquier característica, valor o atributo que puede cambiar o variar en un estudio.',
+        'Cambio gradual de un sistema basado en combustibles fósiles a uno sustentado por fuentes de energía renovable y limpia.',
     },
   ],
   complementario: [

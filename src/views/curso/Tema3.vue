@@ -37,7 +37,7 @@
       .col-12.col-lg-7(data-aos="fade-right")
         AcordionA(tipo="b")
           .div(titulo="Inteligencia artificial - Big Data")
-            p La inteligencia artificial y el Big Data, permiten recopilar, analizar y procesar, grandes volúmenes de datos para identificar patrones y tendencias que optimizan el uso de recursos y la sostenibilidad. En el ámbito de la agricultura, por ejemplo, la IA permite analizar datos climáticos, de suelo y de crecimiento de cultivos para ajustar las prácticas agrícolas en función de las condiciones actuales. Esta tecnología ayuda a los agricultores a reducir el uso de agua, fertilizantes y pesticidas, minimizando su impacto ambiental y maximizando la eficiencia de producción. Además, el Big Data también se utiliza en el sector energético para predecir y gestionar la demanda de electricidad, lo cual permite optimizar el uso de las redes eléctricas y evitar el desperdicio de energía.
+            p La inteligencia artificial y el <i>Big Data</i>, permiten recopilar, analizar y procesar, grandes volúmenes de datos para identificar patrones y tendencias que optimizan el uso de recursos y la sostenibilidad. En el ámbito de la agricultura, por ejemplo, la IA permite analizar datos climáticos, de suelo y de crecimiento de cultivos para ajustar las prácticas agrícolas en función de las condiciones actuales. Esta tecnología ayuda a los agricultores a reducir el uso de agua, fertilizantes y pesticidas, minimizando su impacto ambiental y maximizando la eficiencia de producción. Además, el Big Data también se utiliza en el sector energético para predecir y gestionar la demanda de electricidad, lo cual permite optimizar el uso de las redes eléctricas y evitar el desperdicio de energía.
           .div(titulo="Internet de las Cosas (iot)")
             p El Internet de las Cosas (IoT) ha revolucionado la sostenibilidad en ciudades e industrias mediante la interconexión de dispositivos y sistemas que monitorean el uso de recursos y las condiciones ambientales en tiempo real. En las ciudades inteligentes, por ejemplo, los sensores IoT permiten gestionar el tráfico, reducir el consumo de energía en edificios y optimizar la recolección de residuos, contribuyendo a un entorno urbano más eficiente y menos contaminante. En el ámbito industrial, el IoT permite monitorizar el funcionamiento de las máquinas y los procesos de producción, detectando problemas y ajustando parámetros para reducir el consumo energético y mejorar la eficiencia. Estas aplicaciones son fundamentales para reducir el impacto ambiental de las operaciones industriales y mejorar la sostenibilidad de las ciudades, al reducir las emisiones y el consumo de recursos.
       .col-12.col-lg-5.d-none.d-lg-block(data-aos="fade-left")
@@ -47,11 +47,39 @@
         img(src='@/assets/curso/unidad/img-25.png', alt='Texto que describa la imagen')
       .col-12.col-lg-7(data-aos="fade-left")
         AcordionA(tipo="b")
-          .div(titulo="Inteligencia artificial - Big Data")
+          .div(titulo="Plataformas digitales")
             p Las plataformas digitales y la gestión de datos, también juegan un papel clave en la sostenibilidad, puesto que permiten un monitoreo exhaustivo y transparente de los procesos y la trazabilidad en la cadena de suministro. A través de estas plataformas, las empresas pueden controlar sus procesos de producción y distribución, garantizando que se cumplan con los estándares de sostenibilidad y que se gestionen de manera ética. Las plataformas de trazabilidad y gestión de datos también facilitan el cumplimiento de normativas ambientales y la adopción de prácticas sostenibles, porque proporcionan a los consumidores información clara sobre el origen y la sostenibilidad de los productos que compran. De esta forma, las plataformas digitales no solo permiten a las empresas mejorar su desempeño ambiental, sino que también refuerzan la transparencia y la confianza de los consumidores en los productos sostenibles.
           .div(titulo="Ciudades inteligentes")
             p En el ámbito urbano, la digitalización ha permitido el desarrollo de ciudades inteligentes que integran tecnología para una administración óptima de los recursos y los servicios públicos. Las ciudades inteligentes aprovechan el análisis de datos en tiempo real para ajustar el tráfico, la gestión de la energía y el tratamiento de residuos, de acuerdo con las necesidades de los ciudadanos, promoviendo así un uso más racional de los recursos y mejorando la calidad de vida. Además, las ciudades inteligentes implementan sistemas de gestión ambiental que permiten monitorear y reducir las emisiones de carbono, gestionar el agua de manera sostenible y mejorar la eficiencia energética de los edificios, lo cual resulta esencial en la construcción de un futuro más sustentable.
 
+    .bg-full-width.border-top-9-azul
+      .px-5.pt-5.pb-0
+        h2 Material complementario
+        .row
+          .col-12.col-md-6.col-lg-8
+            p.d-flex.my-4
+              img.me-3.mb-auto.mt-1(src='@/assets/componentes/book.svg' :style="{'max-width':'16px'}")
+              a.text-small.text-primary(target="_blank", href="https://elibro.net/es/lc/tecnologicadeloriente/titulos/172965") Productos y servicios inteligentes y sostenibles: técnicas para la innovación y la creatividad - Guilera, L. & Garrell, A.
+
+            p.d-flex.my-4
+              img.me-3.mb-auto.mt-1(src='@/assets/componentes/book.svg' :style="{'max-width':'16px'}")
+              a.text-small.text-primary(target="_blank", href="https://elibro.net/es/lc/tecnologicadeloriente/titulos/174448") La tecnología y los objetivos de desarrollo sostenible - Pérez Martell, R.
+
+            p.d-flex.my-4
+              img.me-3.mb-auto.mt-1(src='@/assets/componentes/book.svg' :style="{'max-width':'16px'}")
+              a.text-small.text-primary(target="_blank", href="https://elibro.net/es/lc/tecnologicadeloriente/titulos/35292") Tecnologías ambientalmente sostenibles - Arroyave Rojas, J. A.
+
+            p.d-flex.my-4
+              img.me-3.mb-auto.mt-1(src='@/assets/componentes/youtube-icon.svg' :style="{'max-width':'16px'}")
+              a.text-small.text-primary(target="_blank", href="https://www.youtube.com/watch?v=Ze8ja7TIVGs") [Vídeo] USO DE TECNOLOGÍAS PARA EL ECODESARROLLO
+
+            p.d-flex.my-4
+              img.me-3.mb-auto.mt-1(src='@/assets/componentes/youtube-icon.svg' :style="{'max-width':'16px'}")
+              a.text-small.text-primary(target="_blank", href="https://www.youtube.com/watch?v=u8bK8yVTEyY") [Vídeo] Digitalización y sostenibilidad: el impacto de las TIC en el medioambiente
+
+          .col-12.col-md-6.col-lg-3
+            figure
+              img(src='@/assets/componentes/material-complementario.svg' alt='Imagen de material complementario')
 
 </template>
 
